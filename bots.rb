@@ -1,4 +1,3 @@
-require 'twitter_ebooks'
 
 # Information about a particular Twitter user we know
 class UserInfo
@@ -19,8 +18,8 @@ class CloneBot < Ebooks::Bot
 
   def configure
     # Configuration for all CloneBots
-    self.consumer_key = consumer_key
-    self.consumer_secret = consumer_secret
+    self.consumer_key = 'SkVruKintOL5Wuw62kt8waQi9'
+    self.consumer_secret = 'q3qAihggs5Mhd2HEmcPziRA6uGjaMW1tr0bWv6n6K3Bk1gs6UO'
     self.blacklist = ['kylelehk', 'friedrichsays', 'Sudieofna', 'tnietzschequote', 'NerdsOnPeriod', 'FSR', 'BafflingQuotes', 'Obey_Nxme']
     self.delay_range = 1..6
     @userinfo = {}
@@ -129,8 +128,8 @@ class CloneBot < Ebooks::Bot
 end
 
 CloneBot.new("abby_ebooks") do |bot|
-  bot.access_token = access_token
-  bot.access_token_secret = access_token_secret
+  bot.access_token = '1012349390089019392-xnkdnywr6GbtO2w2eYfHV9rdr4Ts6A'
+  bot.access_token_secret = ' 0Loamh72VxlV73e0dfaNb69Ql1KzLpVLhPAQ41dg6lEeE'
 
   bot.original = "0xabad1dea"
 end
