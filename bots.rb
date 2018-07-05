@@ -127,9 +127,9 @@ class CloneBot < Ebooks::Bot
   end
 end
 
-CloneBot.new("abby_ebooks") do |bot|
+CloneBot.new("michel_ebooks") do |bot|
   bot.access_token = '1012349390089019392-xnkdnywr6GbtO2w2eYfHV9rdr4Ts6A'
   bot.access_token_secret = '0Loamh72VxlV73e0dfaNb69Ql1KzLpVLhPAQ41dg6lEeE'
 
-  bot.original = "0xabad1dea"
+  bot.original = "Shakespeare"
 end
